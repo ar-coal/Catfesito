@@ -6,7 +6,7 @@ setlocale(LC_ALL,"es_ES");
 
 require_once('config.php');
 $id    		= $_GET['id'];
-$contraseña = "JacMon_261002";
+$contraseña = "";
 $usuario = "root";
 $nombre_base_de_datos = "practicas";
 try{
