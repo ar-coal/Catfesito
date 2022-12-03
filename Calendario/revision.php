@@ -11,7 +11,7 @@
 </html>
 <?php
 
-$contraseña = "JacMon_261002";
+$contraseña = "";
 $usuario = "root";
 $nombre_base_de_datos = "practicas";
 try{
