@@ -1,0 +1,144 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	text-align: center;
+}
+
+form {
+	padding: 50px 20px;
+	background-color: #2c2b2b;
+	
+	margin: 20px auto ;
+	width: 35%;
+	
+	padding-top: 28px;
+	
+}
+
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: #444
+}
+
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px
+}
+
+input[type='submit']{
+	background-color: #48e;
+	color: #fff;
+	
+	margin-top: 22px;
+	border: none;
+
+    width: 45%;
+}
+
+#inputs{
+    display: flex;
+    
+
+}
+#inputs input{
+    width: 50%;
+    
+
+}
+#inputs input[type=button]{
+    background-color: #48e;
+	color: #fff;
+	
+	margin-top: 22px;
+	border: none;
+    
+    width: 100%;
+
+
+}
+#inputs a{
+   
+    
+    width: 45%;
+
+
+}
+
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
+body{
+	height: 100vh;
+	background-image: url(../Recursos/fondo.jpg);
+	background-size: cover;
+	align-content: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+#icon{
+	display: flex;
+
+}
+#icon i{
+	font-size: 40px;
+	margin: 10px;
+	color: white;
+
+}
+
+#icon2{
+	display: flex;
+
+}
+#icon2 i{
+	font-size: 40px;
+	margin: 10px;
+	color: white;
+
+}
+#icon3{
+	display: flex;
+
+}
+#icon3 i{
+	font-size: 40px;
+	margin: 10px;
+	color: white;
+
+}
+
+#ISesion{
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	
+
+}
+#ISesion img {
+	margin: auto;
+	height: 200px;
+	width: 200px;
+
+}
+#ISesion h1 {
+	color: white;
+
+}
