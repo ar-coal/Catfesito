@@ -1,0 +1,18 @@
+table{
+    margin: auto;
+}
+
+th{
+    background-color:#DE423A;
+    color: white;
+    padding: 5px 25px;
+    
+}
+td{
+    text-align: center;
+    
+}
+
+body{
+    background-color: beige;
+}
